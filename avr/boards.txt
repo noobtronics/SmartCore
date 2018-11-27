@@ -1,0 +1,72 @@
+
+menu.cpu=Processor
+
+
+uno16.name=Smartduino Uno 16Mhz
+
+uno16.upload.tool=avrdude
+uno16.upload.protocol=arduino
+
+uno16.bootloader.tool=avrdude
+uno16.bootloader.unlock_bits=0x3F
+uno16.bootloader.lock_bits=0x0F
+
+uno16.build.f_cpu=16000000L
+uno16.build.board=AVR_SmartCore
+uno16.build.core=arduino
+
+
+## Smartduino Uno w/ ATmega328PB
+## --------------------------
+uno16.menu.cpu.atmega328pb=ATMega328PB
+
+uno16.menu.cpu.atmega328pb.upload.maximum_size=32256
+uno16.menu.cpu.atmega328pb.upload.maximum_data_size=2048
+uno16.menu.cpu.atmega328pb.upload.speed=115200
+
+uno16.menu.cpu.atmega328pb.bootloader.low_fuses=0xFF
+uno16.menu.cpu.atmega328pb.bootloader.high_fuses=0xD6
+uno16.menu.cpu.atmega328pb.bootloader.extended_fuses=0xF5
+uno16.menu.cpu.atmega328pb.bootloader.file=optiboot/atmega328pb/optiboot_flash_atmega328pb_UART0_115200_16000000L.hex
+
+uno16.menu.cpu.atmega328pb.build.mcu=atmega328pb
+uno16.menu.cpu.atmega328pb.build.variant=pb-variant
+
+uno16.menu.cpu.atmega328pb.build.core=MiniCore_corefiles
+uno16.menu.cpu.atmega328pb.build.board=AVR_ATmega328
+
+
+uno16.menu.cpu.atmega328pb.compiler.c.extra_flags=-Wextra -flto -g
+uno16.menu.cpu.atmega328pb.compiler.c.elf.extra_flags=-w -flto -g 
+uno16.menu.cpu.atmega328pb.compiler.cpp.extra_flags=-Wextra -flto -g
+uno16.menu.cpu.atmega328pb.ltoarcmd=avr-gcc-ar
+
+
+
+## Smartduino Uno w/ LGT8F328P
+## --------------------------
+uno16.menu.cpu.lgt8f328p=LGT8F328P
+
+uno16.bootloader.lgt8f328p.unlock_bits=0x3F
+uno16.bootloader.lgt8f328p.lock_bits=0x3F
+
+
+uno16.menu.cpu.lgt8f328p.upload.maximum_size=29696
+uno16.menu.cpu.lgt8f328p.upload.maximum_data_size=2048
+uno16.menu.cpu.lgt8f328p.upload.speed=57600
+
+uno16.menu.cpu.lgt8f328p.bootloader.low_fuses=0xFF
+uno16.menu.cpu.lgt8f328p.bootloader.high_fuses=0xFF
+uno16.menu.cpu.lgt8f328p.bootloader.extended_fuses=0x07
+uno16.menu.cpu.lgt8f328p.bootloader.file=optiboot/lgt8f328p/optiboot_lgt8f328p.hex
+
+uno16.menu.cpu.lgt8f328p.build.core=lgt8f
+uno16.menu.cpu.lgt8f328p.build.variant=lgt8fx8p
+uno16.menu.cpu.lgt8f328p.build.board=AVR_LARDU_328E
+
+uno16.menu.cpu.lgt8f328p.build.mcu=atmega328p
+
+uno16.menu.cpu.lgt8f328p.compiler.c.extra_flags=-Wextra -flto -g
+uno16.menu.cpu.lgt8f328p.compiler.c.elf.extra_flags=-w -flto -g 
+uno16.menu.cpu.lgt8f328p.compiler.cpp.extra_flags=-Wextra -flto -g
+uno16.menu.cpu.lgt8f328p.ltoarcmd=avr-gcc-ar
