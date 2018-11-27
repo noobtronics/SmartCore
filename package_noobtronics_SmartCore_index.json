@@ -1,0 +1,30 @@
+{
+  "packages": [
+    {
+      "name": "SmartCore",
+      "maintainer": "noobtronics",
+      "websiteURL": "https://github.com/noobtronics/SmartCore",
+      "email": "",
+      "help": {
+        "online": "https://github.com/noobtronics/SmartCore"
+      },
+      "platforms": [
+        {
+          "name": "SmartCore",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://noobtronics.github.io/SmartCore/releases/SmartCore-master-V1_0_0.zip",
+          "archiveFileName": "SmartCore-master-V1_0_0.zip",
+          "checksum": "SHA-256:47999B9A92A6C117E20A3B1614BA116F0211B843EF7CA7A1C176BB053402DBCD",
+          "size": "393597",
+          "boards": [
+            {"name": "Smartduino Uno 16Mhz"}
+          ],
+          "toolsDependencies": []
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
