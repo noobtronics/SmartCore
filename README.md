@@ -1,5 +1,5 @@
 
-# Table of contents
+## Table of contents
 * Installation:
   - [How to Install using Boards Manager](#how-to-install-using-boards-manager)
   - [How to Install Manually](#how-to-install-manually)
