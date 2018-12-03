@@ -1,4 +1,4 @@
-# How to Install
+# How to Install using Boards Manager
 
 1) In Arduino IDE, Open File->Preferences
 2) Copy following URL in 'Additional Boards Manager URLs':
