@@ -2,9 +2,10 @@
 # Table of contents
 * Installation:
   - [How to Install using Boards Manager](#how-to-install-using-boards-manager)
+  - [How to Install Manually](#how-to-install-manually)
 
 
-# How to Install using Boards Manager
+## How to Install using Boards Manager
 
 1) In Arduino IDE, Open File->Preferences
 2) Copy following URL in 'Additional Boards Manager URLs':
@@ -27,7 +28,7 @@ https://noobtronics.github.io/SmartCore/package_noobtronics_SmartCore_index.json
 ![](https://raw.githubusercontent.com/noobtronics/SmartCore/master/images/guide/board_display.jpg)
 
 
-# How to Install Manually
+## How to Install Manually
 1) If your board manager is not working as expected, you can install SmartCore library manually. Download the library from here -
 https://github.com/noobtronics/SmartCore/archive/master.zip
 2) Extract the Zip File. Copy the SmartCore folder in hardware directory of Arduino IDE Folder.
