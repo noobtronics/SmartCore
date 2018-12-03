@@ -15,3 +15,5 @@ https://noobtronics.github.io/SmartCore/package_noobtronics_SmartCore_index.json
 
 6) Click Install
 ![](https://raw.githubusercontent.com/noobtronics/SmartCore/master/images/guide/library_installing.jpg)
+
+![](https://raw.githubusercontent.com/noobtronics/SmartCore/master/images/guide/Installed.PNG)
