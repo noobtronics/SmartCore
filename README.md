@@ -19,3 +19,14 @@ https://noobtronics.github.io/SmartCore/package_noobtronics_SmartCore_index.json
 
 7) Close Boards Manager and check if Noobtronics boards are coming in the boards list
 ![](https://raw.githubusercontent.com/noobtronics/SmartCore/master/images/guide/board_display.jpg)
+
+
+# How to Install Manually
+1) If your board manager is not working as expected, you can install SmartCore library manually. Download the library from here - 
+https://github.com/noobtronics/SmartCore/archive/master.zip
+2) Extract the Zip File. Copy the SmartCore folder in hardware directory of Arduino IDE Folder.
+eg. Arduino IDE Path is - 
+> C:\Program Files (x86)\Arduino
+You should copy SmartCore folder so that directory structure is as follows:
+C:\Program Files (x86)\Arduino\hardware\SmartCore\avr\boards.txt
+3) Start / Restart IDE and you should see SmartCore boards in the Boards List.
