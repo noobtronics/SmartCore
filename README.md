@@ -41,5 +41,5 @@ You should copy SmartCore folder so that directory structure is as follows:
 3) Start / Restart IDE and you should see SmartCore boards in the Boards List.
 
 ## Credits
-* Credit of ATMega328PB library goes to MCUDude's MiniCore package -
+* Credit of ATMega328PB library goes to MCUdude's MiniCore package -
     https://github.com/MCUdude/MiniCore
