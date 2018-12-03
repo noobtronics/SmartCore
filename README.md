@@ -27,6 +27,8 @@ https://github.com/noobtronics/SmartCore/archive/master.zip
 2) Extract the Zip File. Copy the SmartCore folder in hardware directory of Arduino IDE Folder.
 eg. Arduino IDE Path is - 
 > C:\Program Files (x86)\Arduino
+
 You should copy SmartCore folder so that directory structure is as follows:
-C:\Program Files (x86)\Arduino\hardware\SmartCore\avr\boards.txt
+> C:\Program Files (x86)\Arduino\hardware\SmartCore\avr\boards.txt
+
 3) Start / Restart IDE and you should see SmartCore boards in the Boards List.
