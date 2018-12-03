@@ -3,7 +3,7 @@
 * Installation:
   - [How to Install using Boards Manager](#how-to-install-using-boards-manager)
   - [How to Install Manually](#how-to-install-manually)
-
+* [Credits](#credits)
 
 ## How to Install using Boards Manager
 
@@ -39,3 +39,6 @@ You should copy SmartCore folder so that directory structure is as follows:
 > C:\Program Files (x86)\Arduino\hardware\SmartCore\avr\boards.txt
 
 3) Start / Restart IDE and you should see SmartCore boards in the Boards List.
+
+## Credits
+Credit of ATMega328PB library goes to MCUDude's MiniCore
