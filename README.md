@@ -25,7 +25,7 @@ https://noobtronics.github.io/SmartCore/package_noobtronics_SmartCore_index.json
 ![](https://raw.githubusercontent.com/noobtronics/SmartCore/master/images/guide/Installed.PNG)
 
 7) You also need to install AVR Boards Libray by Arduino. Look at the top in Boards Manager
-![](https://raw.githubusercontent.com/noobtronics/SmartCore/master/images/guide/AVR_Boards_Library.PNG)
+![](https://raw.githubusercontent.com/noobtronics/SmartCore/master/images/guide/AVR_Boards_Libray.PNG)
 
 8) Close Boards Manager and check if Noobtronics boards are coming in the boards list
 ![](https://raw.githubusercontent.com/noobtronics/SmartCore/master/images/guide/board_display.jpg)
